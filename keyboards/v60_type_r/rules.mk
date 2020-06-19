@@ -51,6 +51,7 @@ OPT_DEFS += -DBOOTLOADER_SIZE=512
 # Build Options
 #   change yes to no to disable
 #
+TAP_DANCE_ENABLE ?= no	   # Enables the "tap dance function"
 BOOTMAGIC_ENABLE ?= no      # Virtual DIP switch configuration(+1000)
 MOUSEKEY_ENABLE ?= yes       # Mouse keys(+4700)
 EXTRAKEY_ENABLE ?= yes       # Audio control and System control(+450)
